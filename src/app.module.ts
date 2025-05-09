@@ -12,7 +12,7 @@ import { TodoModule } from './todo/todo.module';
     ConfigModule.forRoot({
       isGlobal: true,
     }),
-    MongooseModule.forRoot('mongodb://localhost:27017/todoapp'),
+    MongooseModule.forRoot('mongodb+srv://abdullahsajid521:sajid007@cluster0.oprvguw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'),
     UsersModule,
     AuthModule,
     TodoModule
